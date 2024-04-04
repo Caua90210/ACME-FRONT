@@ -40,7 +40,7 @@ Níveis | Desempenho | Nota
 
 Protótipo | FRONT-END | Landing Page | CMS
 ----------|-----------|--------------|-----
-[https://www.figma.com/](https://www.figma.com/file/0tRDddvS5HpHmmLcaLz4EN/Projeto-Filme?type=design&node-id=29-64&mode=design&t=VYeQU9QVTP1DwXOX-0](https://www.figma.com/file/YB9OmwZJMkJeHtaegxBjea/ACME?type=design&node-id=1-60&mode=design&t=vBMG5CMu2egySk9s-0)) | https://github.com/Caua90210/ACME-FRONT | https://caua90210.github.io/ACME-FRONT/ | [https://caua90210.github.io/ACME-FRONT/dashboard.html]
+https://www.figma.com/file/YB9OmwZJMkJeHtaegxBjea/ACME?type=design&node-id=1-60&mode=design&t=vBMG5CMu2egySk9s-0| https://github.com/Caua90210/ACME-FRONT | https://caua90210.github.io/ACME-FRONT/ | [https://caua90210.github.io/ACME-FRONT/dashboard.html]
 
 
 [link1]: [https://www.figma.com/](https://www.figma.com/file/0tRDddvS5HpHmmLcaLz4EN/Projeto-Filme?type=design&node-id=29-64&mode=design&t=VYeQU9QVTP1DwXOX-0)
