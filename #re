@@ -1,0 +1,14 @@
+<header class="h-24 flex justify-between items-center p-12 border-b-4 border-[#ECDDA2]">
+    <h1 class="text-[#ECDDA2] text-3xl font-semibold">DASHBOARD</h1>
+    <div class="flex items-center gap-5">
+        <a href="./index.html" class="text-[#ECDDA2] text-xl font-semibold border-2 border-[#ECDDA2] px-6 py-2 rounded-full hover:bg-[#ECDDA2] hover:text-gray-900 transition-colors">HOME</a>
+        <div class="relative">
+            <input type="text" name="search" class="pl-10 pr-4 py-2 w-80 bg-gray-700 text-[#ECDDA2] border-b-2 border-[#ECDDA2] rounded-full focus:outline-none focus:border-[#374151] placeholder-[#374151] placeholder-opacity-50" placeholder="Search...">
+            <i class="bx bx-search-alt-2 text-[#ECDDA2] absolute top-1/2 left-3 transform -translate-y-1/2 text-xl"></i>
+        </div>
+        <button class="bg-[#ECDDA2] px-6 py-2 text-xl font-semibold rounded-full flex items-center gap-2 hover:bg-[#374151] hover:text-[#ECDDA2] transition-colors">
+            <i class="bx bx-plus"></i>
+            <span>ADD NEW</span>
+        </button>
+    </div>
+</header>

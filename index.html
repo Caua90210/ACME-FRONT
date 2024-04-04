@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/input.css">
+    <link rel="stylesheet" href="./src/output.css">
+    <script type="module" src="./js/filmes.js"></script>
+    <script type="module" src="./js/main.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>ACME-Filmes</title>
+</head>
+
+<body class="h-screen w-screen bg-[#1F2937] overflow-x-hidden">
+    <header>
+        <div class="h-24 flex justify-between items-center p-12 bg-[#111827] ">
+            <a href="./index.html"><img src="./img/logo.svg" alt="home" class="pl-10"></a>
+            <div class="flex align-center justify-center m-3 scroll-m-0 p-10 ">
+                <label class="relative block w-96">
+                    <span class="sr-only">Search</span>
+                    <span class="absolute inset-y-0 left-0 flex items-center pl-2">
+                        <svg id="searchButton" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="cursor-pointer w-8 h-8 text-[#BBBBBB]">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                        </svg>
+                    </span>
+                    <input
+                        class=" placeholder:text-[#BBBBBB] block bg-[#374151] h-12 text-2xl w-full border border-none rounded-md py-2 pl-12 pr-3 shadow-sm focus:outline-none focus:border-none  focus:ring-1  outline-none placeholder:text-2xl placeholder:pr-3 placeholder:justify-center "
+                        placeholder="Procure um filme" type="text" name="search" id="searchBar"/>
+                </label>
+            </div>
+            <ul class="flex gap-4">
+            
+                <li><a href="./loginadm.html"><img src="./img/user.svg" alt="User" class=""></a></li>
+    
+        </div>
+       
+        
+    </header>
+  
+    <main class="flex flex-row align-center justify-center w-full h-full p-24">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 " id="container">
+
+        </div>
+    </main>
+</body>
+
+</html>
