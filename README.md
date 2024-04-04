@@ -40,7 +40,7 @@ Níveis | Desempenho | Nota
 
 Protótipo | FRONT-END | Landing Page | CMS
 ----------|-----------|--------------|-----
-[https://www.figma.com/](https://www.figma.com/file/0tRDddvS5HpHmmLcaLz4EN/Projeto-Filme?type=design&node-id=29-64&mode=design&t=VYeQU9QVTP1DwXOX-0) | [https://github.com/](https://github.com/VINICIUS0098876/Front-acmeFilmes) | [https://github.com/](https://vinicius0098876.github.io/Front-acmeFilmes/) | [[](https://vinicius0098876.github.io/Front-acmeFilmes/dashboard.html)](https://vinicius0098876.github.io/Front-acmeFilmes/dashboard.html)
+[[https://www.figma.com/](https://www.figma.com/file/0tRDddvS5HpHmmLcaLz4EN/Projeto-Filme?type=design&node-id=29-64&mode=design&t=VYeQU9QVTP1DwXOX-0](https://www.figma.com/file/YB9OmwZJMkJeHtaegxBjea/ACME?type=design&node-id=1-60&mode=design&t=vBMG5CMu2egySk9s-0)) | [https://github.com/Caua90210/ACME-FRONT) | [https://github.com/](https://vinicius0098876.github.io/Front-acmeFilmes/) | [[](https://vinicius0098876.github.io/Front-acmeFilmes/dashboard.html)](https://vinicius0098876.github.io/Front-acmeFilmes/dashboard.html)
 
 
 [link1]: [https://www.figma.com/](https://www.figma.com/file/0tRDddvS5HpHmmLcaLz4EN/Projeto-Filme?type=design&node-id=29-64&mode=design&t=VYeQU9QVTP1DwXOX-0)
