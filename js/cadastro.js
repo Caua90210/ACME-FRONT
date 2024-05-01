@@ -10,6 +10,7 @@ const dataRelancamento = document.getElementById('relancamento')
 const valor = document.getElementById('valor')
 const cadastrar = document.getElementById('cadastrar')
 const poster = document.getElementById('poster')
+const link = document.getElementById('link');
 
 cadastrar.addEventListener('click', ()=>{
 
