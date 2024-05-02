@@ -22,6 +22,12 @@ function preencherCampos(filme){
     } else {
         relancamento.textContent = "RELANÇAMENTO: Sem previsão"
     }
+    const icon = document.getElementById('classificacao')
+    icon.src = filme.classificacao[0].icone
+
+    const genero = document.getElementById('genero')
+    genero.textContent = "Gênero: "+ filme.genero[0].nome
+
     const valor = document.getElementById('valor')
     valor.textContent=' ALUGAR POR R$ '+filme.valor_unitario
     duracao.textContent="DURAÇÃO: "+tratarDuracao(filme.duracao) 
