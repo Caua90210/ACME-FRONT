@@ -42,7 +42,7 @@ function criarDiretor(info) {
 const add = document.getElementById('add');
 
 add.addEventListener('click', () => {
-    window.location.href = '../cadastroDiretor.html';
+    window.location.href = '../cadastroAtor.html';
 });
 
 listaAtores.forEach(ator => {
