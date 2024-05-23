@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./src/input.css">
     <link rel="stylesheet" href="./src/output.css">
-    <script type="module" src="./js/cadastro.js"></script>
+    <script type="module" src="../js/cadastro.js"></script>
 </head>
 
 <body class="bg-gray-100 h-screen font-sans">
@@ -24,43 +24,43 @@
 
     <main class="h-5/6 flex justify-center items-center ">
         <div class="flex w-full h-full justify-around items-center bg-white rounded-lg shadow-md p-8">
-            <div class="flex flex-col gap-4 justify-end">
-                <h1 class="text-3xl text-center text-gray-900 pb-4">CADASTRE SEU FILME</h1>
+            <div class="flex flex-col gap-4 justify-end text-gray-900">
+                <h1 class="text-3xl text-center pb-4">CADASTRE SEU FILME</h1>
                 <div class="flex items-center gap-2">
-                    <label for="titulo" class="text-3xl text-gray-900">Nome do filme:</label>
-                    <input type="text" class="px-3 py-2 w-96 border rounded-md bg-gray-100 text-gray-900 text-xl" id="titulo">
+                    <label for="titulo" class="text-3xl">Nome do filme:</label>
+                    <input type="text" class="px-3 py-2 w-96 border rounded-md bg-gray-100 text-xl" id="titulo">
                 </div>
                 <div class="flex items-center gap-4">
-                    <label for="sinopse" class="text-3xl text-gray-900">Sinopse:</label>
-                    <textarea name="" cols="30" rows="3" class="px-3 py-2 w-96 border rounded-md bg-gray-100 text-gray-900 text-xl" id="sinopse"></textarea>
+                    <label for="sinopse" class="text-3xl">Sinopse:</label>
+                    <textarea name="" cols="30" rows="3" class="px-3 py-2 w-96 border rounded-md bg-gray-100 text-xl" id="sinopse"></textarea>
                 </div>
                 <div class="flex items-center gap-4">
-                    <label for="duracao" class="text-3xl text-gray-900">Duração:</label>
-                    <input type="text" class="px-3 py-2 w-96 border rounded-md bg-gray-100 text-gray-900 text-xl" id="duracao">
+                    <label for="duracao" class="text-3xl">Duração:</label>
+                    <input type="text" class="px-3 py-2 w-96 border rounded-md bg-gray-100 text-xl" id="duracao">
                 </div>
                 <div class="flex items-center gap-2">
-                    <label for="lancamento" class="text-3xl text-gray-900">Lançamento:</label>
-                    <input type="date" class="px-3 py-2 w-96 border rounded-md bg-gray-100 text-gray-900 text-xl" id="lancamento">
+                    <label for="lancamento" class="text-3xl">Lançamento:</label>
+                    <input type="date" class="px-3 py-2 w-96 border rounded-md bg-gray-100 text-xl" id="lancamento">
                 </div>
                 <div class="flex items-center gap-2">
-                    <label for="relancamento" class="text-3xl text-gray-900">Relançamento:</label>
-                    <input type="date" class="px-3 py-2 w-96 border rounded-md bg-gray-100 text-gray-900 text-xl" id="relancamento">
+                    <label for="relancamento" class="text-3xl">Relançamento:</label>
+                    <input type="date" class="px-3 py-2 w-96 border rounded-md bg-gray-100 text-xl" id="relancamento">
                 </div>
                 <div class="flex items-center gap-2">
-                    <label for="valor" class="text-3xl text-gray-900">Valor:</label>
-                    <input type="text" class="px-3 py-2 w-96 border rounded-md bg-gray-100 text-gray-900 text-xl" id="valor">
+                    <label for="valor" class="text-3xl">Valor:</label>
+                    <input type="text" class="px-3 py-2 w-96 border rounded-md bg-gray-100 text-xl" id="valor">
                 </div>
                 <div class="flex items-center gap-2">
-                    <label for="valor" class="text-3xl text-gray-900">Classificacao:</label>
-                    <select name="" id="classificacao">
+                    <label for="valor" class="text-3xl">Classificação:</label>
+                    <select name="" id="classificacao" class="px-3 py-2 w-96 border rounded-md bg-gray-100 text-xl">
                         <option value="1">18</option>
-                        <option value="2">16</option>
+                        <option value="2">L</option>
                     </select>
                 </div>
                 <button class="p-3 border-4 mt-6 border-gray-900 text-gray-900 font-bold hover:bg-gray-900 hover:text-white transition ease-in-out block rounded-full" id="cadastrar">CADASTRAR FILME</button>
             </div>
             <div class="" id="capaFilme">
-                <div class="posterFilme bg-gray-900 text-white h-fit flex flex-col items-center border-4 border-gray-900  rounded-lg">
+                <div class="posterFilme bg-gray-900 text-white flex flex-col items-center border-4 border-gray-900  rounded-lg">
                     <img id="poster" class="w-64">
                     <input type="text" id="link" class="w-full outline-none bg-gray-100 text-gray-900 font-bold rounded-lg pl-4" placeholder="inserir imagem">
                 </div>

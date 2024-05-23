@@ -34,24 +34,24 @@ const container = document.getElementById('container')
 
 
 
-function criarCard (diretor){
+function criarCard (ator){
     container.classList.add('gap-4')
     const card = document.createElement('div')
     card.classList.add('flex', 'flex-col','bg-white', 'rounded-lg', 'shadow-lg', 'p-6', 'mb-4', 'transform', 'transition', 'hover:scale-105', 'duration-300', 'max-w-sm', 'mx-auto');
     const nome = document.createElement('h2')
-    nome.textContent = diretor.nome
+    nome.textContent = ator.nome
     nome.classList.add('text-lg', 'font-bold', 'text-gray-900', 'mb-2', 'text-center');
     const texto = document.createElement('p')
-    texto.textContent = diretor.data_nascimento
+    texto.textContent = ator.data_nascimento
     texto.classList.add('w-72')
     const dataFalecimento = document.createElement('p')
-    dataFalecimento.textContent = diretor.data_falecimento;
+    dataFalecimento.textContent = ator.data_falecimento;
 
     const foto = document.createElement('img')
-    foto.src = diretor.foto
+    foto.src = ator.foto
     foto.classList.add('w-full', 'h-full', 'object-cover', 'rounded-lg', 'mb-2');
     const biografia = document.createElement('p')
-    biografia.textContent = diretor.biografia
+    biografia.textContent = ator.biografia
     card.append(foto, nome)
     container.appendChild(card)
     card.addEventListener('click',()=> {
