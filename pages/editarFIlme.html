@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/input.css">
+    <link rel="stylesheet" href="./src/output.css">
+    <script type="module" src="./js/filmes.js"></script>
+    <script type="module" src="../js/edit.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Editar filme</title>
+</head>
+<body class="bg-gray-100 h-screen font-sans">
+
+    <header class="h-24 flex justify-between items-center px-12 bg-gray-900 text-white">
+        <a href="./dashboard.html"><img src="../img/botao-voltar (1).png" alt="home" class=""></a>
+
+
+    </header>
+
+    <main class="h-5/6 flex justify-center items-center">
+        <div class="flex w-full h-full justify-around items-center" id="container">
+            <div class="flex gap-5 flex-col" id="infoFilme">
+                <div class="flex items-center justify-center gap-2">
+                    <p class="text-3xl text-gray-900" >Nome do filme:</p>
+                    <input type="text" class="px-3 py-2 w-96 border rounded-md bg-gray-100 text-gray-900 text-xl" id="nome">
+                </div>
+                <div class="flex items-center gap-4">
+                    <p class="text-3xl text-gray-900" >Sinopse:</p>
+                    <textarea name=""  cols="30" rows="5" class="px-3 py-2 w-96 border rounded-md bg-gray-100 text-gray-900 text-xl"" id="sinopse"></textarea>
+                </div>
+                <div class="flex items-center gap-4">
+                    <p class="text-3xl text-gray-900" >Duração:</p>
+                    <input type="text" class="px-3 py-2 w-96 border rounded-md bg-gray-100 text-gray-900 text-xl" id="duracao">
+                </div>
+                <div class="flex items-center gap-2">
+                    <p class="text-3xl text-gray-900" >Lançamento:</p>
+                    <input type="date" class="px-3 py-2 w-96 border rounded-md bg-gray-100 text-gray-900 text-xl" id="lancamento">
+                </div>
+                <div class="flex items-center gap-2">
+                    <p class="text-3xl text-gray-900" >Relançamento:</p>
+                    <input type="date" class="px-3 py-2 w-96 border rounded-md bg-gray-100 text-gray-900 text-xl" id="relancamento">
+                </div>
+                <div class="flex items-center gap-2">
+                    <p class="text-3xl text-gray-900" >Valor:</p>
+                    <input type="text" class="px-3 py-2 w-96 border rounded-md bg-gray-100 text-gray-900 text-xl" id="valor">
+                </div>
+                <div class="flex items-center gap-2">
+                    <label for="valor" class="text-3xl text-gray-900">Classificacao:</label>
+                    <select name="" id="classificacao">
+                        <option value="1">18</option>
+                        <option value="2">16</option>
+                    </select>
+                </div>
+            </div>
+            <div class="flex flex-col" id="capaFilme">
+                <div class="posterFilme bg-[#7A7A7A] text-[#ECDDA2] h-fit w-fit flex flex-col items-center border-4 border-gray-900 rounded-lg">
+                    <img id="poster" class="w-64">
+                    <input type="text" id="link" class="w-full outline-none bg-gray-100 text-gray-900 font-bold rounded-lg pl-4" placeholder="Link da imagem">
+                </div>
+                <button class="p-3 border-4 mt-6 border-gray-900 text-gray-900 font-bold hover:bg-gray-900 hover:text-white transition ease-in-out block rounded-full" id="salvar">SALVAR ALTERAÇÕES</button>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
+    <style>
+        .posterFilme>img {
+        aspect-ratio: 2/3;
+         }
+    </style>

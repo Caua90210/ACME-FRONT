@@ -37,22 +37,29 @@ export async function postFilme(filme){
     return response.ok
 }
 
-export async function putFilme(id, filme){
-    const url = `http://localhost:8080/v2/acmeFilmes/filme/${id}`
+export async function putFilme(id, filme) {
+    const url = `http://localhost:8080/v2/acmeFilmes/filme/${id}`;
     const options = {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify(filme)
+    };
+
+    try {
+        const response = await fetch(url, options);
+        console.log('URL:', url);
+        console.log('Options:', options);
+        console.log('Response Status:', response.status);
+        const responseData = await response.json();
+        console.log('Response Data:', responseData);
+        return response.ok;
+    } catch (error) {
+        console.error('Erro ao fazer a requisição PUT:', error);
+        return false;
     }
-
-    const response = await fetch(url, options)
-
-    return response.ok
 }
-
-
 
 
 export async function deleteFilme(id){

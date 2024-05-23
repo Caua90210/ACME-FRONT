@@ -34,7 +34,7 @@ function criarFilme(info) {
     container.appendChild(filme);
     
     iconeEditar.addEventListener('click', () => {
-        window.location.href = '../editar.html?id=' + info.id;
+        window.location.href = './editarFilme.html?id=' + info.id;
     });
     
     iconeDeletar.addEventListener('click', () => {
@@ -46,7 +46,7 @@ function criarFilme(info) {
 const add = document.getElementById('add');
 
 add.addEventListener('click', () => {
-    window.location.href = '../cadastro.html';
+    window.location.href = './cadastro.html';
 });
 
 listaFilme.forEach(filme => {

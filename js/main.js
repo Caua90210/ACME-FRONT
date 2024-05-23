@@ -55,7 +55,7 @@ function criarCard (filme){
     card.append(capa, titulo)
     container.appendChild(card)
     card.addEventListener('click',()=> {
-        window.location.href='../sobre.html?id='+filme.id
+        window.location.href='./pages/sobre.html?id='+filme.id
     })
 }
 

@@ -30,7 +30,7 @@ function criarDiretor(info) {
     container.appendChild(ator);
     
     iconeEditar.addEventListener('click', () => {
-        window.location.href = '../editarAtor.html?id=' + info.id_ator;
+        window.location.href = './editar.html?id=' + info.id_ator;
     });
     
     iconeDeletar.addEventListener('click', () => {
@@ -42,7 +42,7 @@ function criarDiretor(info) {
 const add = document.getElementById('add');
 
 add.addEventListener('click', () => {
-    window.location.href = '../cadastroAtor.html';
+    window.location.href = './cadastroAtor.html';
 });
 
 listaAtores.forEach(ator => {

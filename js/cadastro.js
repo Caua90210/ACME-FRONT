@@ -11,6 +11,7 @@ const valor = document.getElementById('valor')
 const cadastrar = document.getElementById('cadastrar')
 const poster = document.getElementById('poster')
 const link = document.getElementById('link');
+const classificacao = document.getElementById('classificacao')
 
 cadastrar.addEventListener('click', ()=>{
 
@@ -20,7 +21,9 @@ cadastrar.addEventListener('click', ()=>{
     const dataLancamentoInput = dataLancamento.value
     const dataRelancamentoInput = dataRelancamento.value
     const valorInput = valor.value
+    const classificacaoInput = classificacao.value
     const capaInput = poster.src
+    
     const insert ={
         nome: tituloInput,
         sinopse: sinopseInput,
@@ -28,7 +31,8 @@ cadastrar.addEventListener('click', ()=>{
         data_lancamento: dataLancamentoInput,
         data_relancamento: dataRelancamentoInput,
         valor_unitario: valorInput,
-        foto_capa: capaInput
+        foto_capa: capaInput,
+        id_classificacao: classificacaoInput
     }
 
     postFilme(insert)

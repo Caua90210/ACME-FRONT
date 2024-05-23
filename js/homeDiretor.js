@@ -55,7 +55,7 @@ function criarCard (diretor){
     card.append(foto, nome)
     container.appendChild(card)
     card.addEventListener('click',()=> {
-        window.location.href='../sobreDiretor.html?id='+diretor.id_diretor
+        window.location.href='./sobreDiretor.html?id='+diretor.id_diretor
     })
 }
 
